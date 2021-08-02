@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  context-path: /
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mysql://localhost:3308/mndc
+    username: root
+    password: 1234
